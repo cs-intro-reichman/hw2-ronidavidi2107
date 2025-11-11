@@ -17,12 +17,12 @@ public class TimeCalc {
     String minPrint;
     if (newHour < 10) {
         houPrint = "0" + newHour;
-    } else { houPrint = " " + newHour;
+    } else { houPrint = "" + newHour;
 
     }
     if (newMin < 10) {
         minPrint = "0" + newMin;   
-    } else { minPrint = " " + newMin;
+    } else { minPrint = "" + newMin;
 
     }
     System.out.println( houPrint + ":" + minPrint);

@@ -19,7 +19,7 @@ public class Collatz {
 			System.out.print(" "+Current);
 			step ++;
 
-		}    System.out.println("(" + step + ")");
+		}    System.out.println(" (" + step + ")");
 		
 	} System.out.println( "Every one of the first " + N +" hailstone sequences reached 1.");
 
