@@ -4,7 +4,7 @@ public class Cheers {
 	String name = args[0];
         int time = Integer.parseInt(args[1]);
         String nameB = name.toUpperCase();
-        String swi = "AEFHILMNOR";
+        String swi = "AEFHILMNORSX";
         for ( int i = 0; i < nameB.length(); i ++) {
             char n = nameB.charAt(i);
             if (swi.indexOf (n) == -1 ) {
